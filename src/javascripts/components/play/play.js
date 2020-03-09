@@ -7,7 +7,7 @@ const buildPlayProg = () => {
   domString += '<h3>PLAY</h3>';
   domString += `<p>${playProg}</p>`;
   domString += '<button id="mostFunBtn" class="playBtn">Throw Ball</button>';
-  domString += '<button id="leastFunButton" class="playBtn">Give Chew Toy</button';
+  domString += '<button id="leastFunBtn" class="playBtn">Give Chew Toy</button';
   utils.printToDom('play', domString);
 };
 
