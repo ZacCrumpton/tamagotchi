@@ -3,6 +3,7 @@ import eat from './components/eat/eat';
 import fun from './components/play/play';
 import fight from './components/fight/fight';
 import sleep from './components/sleep/sleep';
+import pet from './components/pet/pet';
 
 const init = () => {
   eat.buildFullProg();
@@ -17,6 +18,7 @@ const init = () => {
   sleep.buildSleepProg();
   $('body').on('click', '#napBtn', sleep.napFunction);
   $('body').on('click', '#deepSleepBtn', sleep.deepSleepFunction);
+  pet.buildPetImg();
 };
 
 init();

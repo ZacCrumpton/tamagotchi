@@ -1,0 +1,5 @@
+const petImg = 'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/738bd944-8147-4033-b131-6eb49a9bfefd/d13ex1w-8bae34bd-b380-4efe-8563-a870a791f818.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzczOGJkOTQ0LTgxNDctNDAzMy1iMTMxLTZlYjQ5YTliZmVmZFwvZDEzZXgxdy04YmFlMzRiZC1iMzgwLTRlZmUtODU2My1hODcwYTc5MWY4MTguanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.OHn2lsXSHGzNh47kNuoVMZlspixYT6cA3eIVVvr8lwo';
+
+const getPetImg = () => petImg;
+
+export default { getPetImg };

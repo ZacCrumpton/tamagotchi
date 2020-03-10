@@ -1,3 +1,9 @@
 body {
     background-color: slategray;
+    #app{
+      display: flex;
+      flex-wrap: row;
+      justify-content: space-between;
+      max-width: 900px
   }
+  } 
